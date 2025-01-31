@@ -3,6 +3,8 @@ Use your Ollama managed models with LM Studio!
 
 A utility script that fixes and enables LM Studio to use your Ollama models by creating the necessary symbolic links between Ollama's model storage and LM Studio's expected format.
 
+## Notes from angrysky56: On Windows you can right click the file and open with gitbash if you have it installed and it will run automatically- the symlinks will register the models as double the space (boo!) so you probably don't want to leave the paths going to your main drive!!! They show up in the "default" folder at the top of the code so fill that in, it doesn't register the LM Studio custom folder right at least for me on Windows. But it does work- tested with Letta using LM Studio as the server and had access to the Ollama models.
+
 ## Prerequisites
 
 - [Ollama](https://ollama.ai) installed with at least one model downloaded
